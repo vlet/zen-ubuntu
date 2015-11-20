@@ -178,11 +178,11 @@ sub setSnmpdService($snmpd_enabled)
 	# perform runlevel change
 	if ( $snmpd_enabled eq 'true' )
 	{
-		$return_code = system ( "$insserv snmpd" );
+		$return_code = system ( "$update_rcd snmpd enable > /dev/null 2>&1" );
 	}
 	else
 	{
-		$return_code = system ( "$insserv -r snmpd" );
+		$return_code = system ( "$update_rcd snmpd disable > /dev/null 2>&1" );
 	}
 
 	# show message if failed
