@@ -31,9 +31,9 @@ $version="3.7";#update
 #Cipher PCI
 $cipher_pci="DEFAULT";#update
 #BUY SSL Certificates
-$buy_ssl="http://ecommerce.sofintel.net/ssl/ssl-certificate.aspx?ci=8347&prog_id=503889";
+$buy_ssl="#";
 #URL of dinamic content in global view
-$url="https://www.sofintel.net/json/eeinfo.php";
+$url="#";
 
 #dns file server?
 $filedns="/etc/resolv.conf";
@@ -46,9 +46,9 @@ $ifconfig_bin="/sbin/ifconfig";
 #Where is ip bynary?
 $ip_bin="/sbin/ip";
 #Where is pen (tcp) load balancer?
-$pen_bin="/usr/local/zenloadbalancer/app/pen/bin/pen";
+$pen_bin="/usr/bin/pen";
 #Where is pen control load balancer?
-$pen_ctl="/usr/local/zenloadbalancer/app/pen/bin/penctl";
+$pen_ctl="/usr/bin/penctl";
 #Where is fdisk binary?
 $fdisk_bin="/sbin/fdisk";
 #Where is df binary?
@@ -62,7 +62,7 @@ $scp="/usr/bin/scp";
 #Where is rsync binary?
 $rsync="/usr/bin/rsync";
 #Where is ucarp binary?
-$ucarp="/usr/local/zenloadbalancer/app/ucarp/sbin/ucarp";
+$ucarp="/usr/sbin/ucarp";
 #Where is pidof binary?
 $pidof="/bin/pidof";
 #Where is ps binary?
@@ -96,18 +96,20 @@ $lsmod="/sbin/lsmod";
 #Where is netstat-nat?
 $netstatNat="/usr/bin/netstat-nat";
 #Where is gdnsd?
-$gdnsd="/usr/local/zenloadbalancer/app/gdnsd/sbin/gdnsd";
+$gdnsd="/usr/sbin/gdnsd";
 #Where is l4sd?
 $l4sd="/usr/local/zenloadbalancer/app/l4s/bin/l4sd";
 #Where is conntrack?
 $conntrack="/usr/sbin/conntrack";
 #Where is insserv?
-$insserv="/sbin/insserv";
+$insserv="/usr/lib/insserv/insserv";
+$update_rcd="/usr/sbin/update-rc.d";
+$initctl="/sbin/initctl";
 
 #where is pound binary?
-$pound="/usr/local/zenloadbalancer/app/pound/sbin/pound";
+$pound="/usr/sbin/pound";
 #where is pound ctl?
-$poundctl="/usr/local/zenloadbalancer/app/pound/sbin/poundctl";
+$poundctl="/usr/sbin/poundctl";
 #pound file configuration template?
 $poundtpl="/usr/local/zenloadbalancer/app/pound/etc/poundtpl.cfg";
 #piddir
