@@ -1,0 +1,19 @@
+zenloadbalancer (3.7-1ubuntu11) UNRELEASED; urgency=medium
+
+  * fixed .htpasswd packaging
+  * disable system gdnsd
+  * fixed pound config packaging
+  * added snmpd depenedency
+  * hack snmpd.conf
+  * insserv -> update-rc.d
+  * hide update-rc.d noisy output
+  * upstart integration: emit net-device-up event
+  * updated pound template config (ssl related options)
+
+ -- Vladimir Lettiev <thecrux@gmail.com>  Wed, 18 Nov 2015 16:10:23 +0300
+
+zenloadbalancer (3.7-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Vladimir Lettiev <thecrux@gmail.com>  Tue, 20 Oct 2015 15:08:32 +0300

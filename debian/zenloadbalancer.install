@@ -1,0 +1,5 @@
+app usr/local/zenloadbalancer
+config usr/local/zenloadbalancer
+www usr/local/zenloadbalancer
+logs usr/local/zenloadbalancer
+license.txt usr/local/zenloadbalancer
